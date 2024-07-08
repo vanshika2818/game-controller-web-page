@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.left{
+    margin-left: 130px;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 540px;
+    margin-right: 120px;
+}
+.logo{
+    height: 50px;
+}
+.i{
+    padding-top: 14px;
+    cursor: pointer;
+}
+.i:hover{
+    text-decoration: rgb(248, 70, 100) underline;
+}
+.btw{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    height: 335px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 78px;
+}
+.bottom img{
+    cursor: pointer;
+}
+.fb{
+    margin-right: 150px;
+}
+.tw{
+    margin-right: 150px;
+}
+.info{
+    margin-left: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pic{
+    background-color: rgb(248, 70, 100);
+    border-radius: 10px;
+}
+.info-top{
+    margin-top: -10px;
+    padding-left: 20px;
+    border-left-color: rgb(248, 70, 100);
+    border-left-style:solid ;
+    border-left-width:10px ;
+}
+.bold-ps4,.bold-dual{
+    font-size: 50px;
+    font-weight: bold;
+}
+.bold-dual{
+    margin-top: -50px;
+}
+.wire{
+    margin-top: -40px;
+    font-size: 28px;
+    color: lightgrey;
+}
+.comp{
+    margin-top: -30px;
+    color: rgb(240, 225, 225);
+}
+.buy,.doller{
+    margin-left: 30px;
+}
+.doller{
+    font-weight: bold;
+}
+.buy{
+    background-color: rgb(248, 70, 100);
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 35px;
+    padding-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buy:hover{
+    box-shadow: 3px 3px 3px;
+}
+.bn{
+    padding-left:7px;
+}
+.arr{
+    height: 14px;
+    padding-right:7px;
+}
+.pic{
+    width: 500px;
+}
+.cart{
+    height: 40px;
+}
+.plus{
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: -250px;
+    cursor: pointer;
+}
+.game{
+    height: 383px;
+    margin-left: -60px;
+    padding-right: 10px;
+    padding: 0;
+}
+.gm{
+    width: 480px;
+    margin-left: -100px;
+
+}
+.fb{
+    height: 25px;
+}
+.tw{
+    height: 25px;
+}
+.menuicon{
+    display: none;
+}
+@media(max-width:1060px){
+    .left{
+        margin: 10px;
+        margin-right: 50px;
+    }
+    .info{
+        height: 400px;
+        width: 600px;
+        margin-top: 390px;
+        margin-right: -300px;
+        margin-left: 100px;
+    }
+    .bottom{
+        margin-top: 500px;
+    }
+    .wire{
+        width: 450px;
+    }
+}
+@media only screen and (max-width:450px)
+{
+    .menuicon{
+        display: block;
+        position: absolute;
+        cursor: pointer;
+    }
+    .head{
+        position: relative;
+        width: 680px;
+    }
+    .right{
+        background-color: rgb(248, 70, 100);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 200px;
+        align-items: center;
+        width: 800px;
+    }
+    .logo{
+        height: 120px;
+    }
+    .i{
+        font-size: 40px;
+    }
+    .bottom{
+        height: 90px;
+        margin-top:1100px;
+        margin-left: 180px;
+        width: 100%;
+    }
+    .bottom img{
+        height: 70px;
+    }
+    .info{
+        margin-top: 800px;
+    }
+    .info-top{
+        height: 350px;
+    }
+    .bold-ps4,.bold-dual{
+        font-size: 70px;
+    }
+    .wire{
+        font-size: 45px;
+    }
+    .comp{
+        font-size: 30px;
+    }
+    .doller{
+        font-size: 30px;
+    }
+    .buy{
+        width: 220px;
+        height: 55px;
+        font-size: 30px;
+    }
+    .arr{
+        height: 20px;
+    }
+    .pic{
+        margin-bottom: -400px;
+        margin-top: 280px;
+        margin-left: -120px;
+        width: 610px;
+    }
+    .game{
+        height: 470px;
+        margin-left: -110px;
+    }
+    .cart{
+        height: 100px;
+        margin-left: 90px;
+        margin-top: -40px;
+    }
+}

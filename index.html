@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game Controllers</title>
+<body>
+    <div class="head">
+        <div class="left"><img class="logo" src="logo.png"></div>
+        <div class="right">
+            <div class="i">Game Controllers</div>
+            <div class="i">VR Accessories</div>
+            <div class="i">Media Remotes</div>
+            <div class="i">Others</div>
+        </div>
+        <div><img class="menuicon" src="menu.png" onclick="togglemenu"></div>
+    </div>
+    <div class="btw">
+        <div class="info">
+            <div class="info-top">
+                <p class="bold-ps4">PS4 V2</p>
+                <p class="bold-dual">Dualshock 4</p>
+                <p class="wire">Wireless Controller for PlayStation 4</p>
+                <p class="comp">(Compatible/Generic)</p>
+            </div>
+            <div class="doller"><p>$32.50</p></div>
+            <div class="buy">
+                <div class="bn">Buy Now</div>
+                <div><img class="arr" src="arrow.png"></div>
+            </div>
+        </div>
+        <div class="pic">
+            <div class="gm"><img class="game" src="controller.png"></div>
+            <div class="plus"><img class="cart" src="add.png"></div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div><img class="fb" src="fb.png"></div>
+        <div><img class="tw" src="tw.png"></div>
+        <div><img src="ig.png"></div>
+    </div>
+    <script>
+        var right=document.getElementById("right");
+        right.style.maxHeight="0px";
+        function togglemenu(){
+            if(right.style.maxHeight == "0px")
+        {
+            right.style.maxHeight="130px";
+        }
+        else{
+            right.style.maxHeight="0px";
+        }
+        }
+    </script>
+</body>
+</html>
